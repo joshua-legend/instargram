@@ -42,9 +42,11 @@ const Instargram = () => {
       <div className="w-full h-full max-w-sm m-auto">
         <Topbar />
         <Storyboard />
-        {data.map((v) => (
-          <Feed {...v} />
-        ))}
+        <section style={{ paddingBottom: "60px" }}>
+          {data.map((v) => (
+            <Feed {...v} />
+          ))}
+        </section>
         <Navigation />
       </div>
     </div>

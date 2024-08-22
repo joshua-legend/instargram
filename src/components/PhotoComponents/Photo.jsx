@@ -1,4 +1,5 @@
 const Photo = (props) => {
+  console.log(props.image);
   const map = {
     small: { width: "23px", height: "23px" },
     medium: { width: "32px", height: "32px" },
